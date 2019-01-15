@@ -12,11 +12,10 @@
 		3667B28721EDB0680049E692 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3667B28521EDB0680049E692 /* Main.storyboard */; };
 		3667B28921EDB06A0049E692 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3667B28821EDB06A0049E692 /* Assets.xcassets */; };
 		3667B28C21EDB06A0049E692 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3667B28A21EDB06A0049E692 /* LaunchScreen.storyboard */; };
-		E7DE4F1693D343371203127B /* Pods_RXSwiftScrollView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A0827F732CBD1C28D637B9 /* Pods_RXSwiftScrollView.framework */; };
+		EFD09885A8C92C0651D9079A /* Pods_RXSwiftScrollView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAEBB5DC908CBEB0567A7B6D /* Pods_RXSwiftScrollView.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		20A0827F732CBD1C28D637B9 /* Pods_RXSwiftScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RXSwiftScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3667B27E21EDB0680049E692 /* RXSwiftScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RXSwiftScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3667B28121EDB0680049E692 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3667B28321EDB0680049E692 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,8 +23,9 @@
 		3667B28821EDB06A0049E692 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3667B28B21EDB06A0049E692 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3667B28D21EDB06A0049E692 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BDEA1211130987BFD03C2FCA /* Pods-RXSwiftScrollView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RXSwiftScrollView.debug.xcconfig"; path = "Target Support Files/Pods-RXSwiftScrollView/Pods-RXSwiftScrollView.debug.xcconfig"; sourceTree = "<group>"; };
-		D6508560BC14BA3687D15B6C /* Pods-RXSwiftScrollView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RXSwiftScrollView.release.xcconfig"; path = "Target Support Files/Pods-RXSwiftScrollView/Pods-RXSwiftScrollView.release.xcconfig"; sourceTree = "<group>"; };
+		6AC1CF6472DDC453262C2AAE /* Pods-RXSwiftScrollView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RXSwiftScrollView.release.xcconfig"; path = "Target Support Files/Pods-RXSwiftScrollView/Pods-RXSwiftScrollView.release.xcconfig"; sourceTree = "<group>"; };
+		AAEBB5DC908CBEB0567A7B6D /* Pods_RXSwiftScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RXSwiftScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC08F8BBE95A218E6307C0D4 /* Pods-RXSwiftScrollView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RXSwiftScrollView.debug.xcconfig"; path = "Target Support Files/Pods-RXSwiftScrollView/Pods-RXSwiftScrollView.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,30 +33,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7DE4F1693D343371203127B /* Pods_RXSwiftScrollView.framework in Frameworks */,
+				EFD09885A8C92C0651D9079A /* Pods_RXSwiftScrollView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		09797EAB6C795A18C6A03255 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				BDEA1211130987BFD03C2FCA /* Pods-RXSwiftScrollView.debug.xcconfig */,
-				D6508560BC14BA3687D15B6C /* Pods-RXSwiftScrollView.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		3667B27521EDB0680049E692 = {
 			isa = PBXGroup;
 			children = (
 				3667B28021EDB0680049E692 /* RXSwiftScrollView */,
 				3667B27F21EDB0680049E692 /* Products */,
-				09797EAB6C795A18C6A03255 /* Pods */,
-				8DFD3C206F3C159B18C6A51B /* Frameworks */,
+				8A2AADC5C412F543967631FC /* Pods */,
+				599E63795A985BDEC6790CDB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,12 +71,22 @@
 			path = RXSwiftScrollView;
 			sourceTree = "<group>";
 		};
-		8DFD3C206F3C159B18C6A51B /* Frameworks */ = {
+		599E63795A985BDEC6790CDB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				20A0827F732CBD1C28D637B9 /* Pods_RXSwiftScrollView.framework */,
+				AAEBB5DC908CBEB0567A7B6D /* Pods_RXSwiftScrollView.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A2AADC5C412F543967631FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC08F8BBE95A218E6307C0D4 /* Pods-RXSwiftScrollView.debug.xcconfig */,
+				6AC1CF6472DDC453262C2AAE /* Pods-RXSwiftScrollView.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,11 +96,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3667B29021EDB06A0049E692 /* Build configuration list for PBXNativeTarget "RXSwiftScrollView" */;
 			buildPhases = (
-				A4EF20A02BE0FBD2C2A77504 /* [CP] Check Pods Manifest.lock */,
+				DD6B807200E36FF655BA24C0 /* [CP] Check Pods Manifest.lock */,
 				3667B27A21EDB0680049E692 /* Sources */,
 				3667B27B21EDB0680049E692 /* Frameworks */,
 				3667B27C21EDB0680049E692 /* Resources */,
-				C6DCDC110B680F6113731B8C /* [CP] Embed Pods Frameworks */,
+				86DE49681CEC85120519D49E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -158,7 +158,35 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		A4EF20A02BE0FBD2C2A77504 /* [CP] Check Pods Manifest.lock */ = {
+		86DE49681CEC85120519D49E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RXSwiftScrollView/Pods-RXSwiftScrollView-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RXSwiftScrollView/Pods-RXSwiftScrollView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD6B807200E36FF655BA24C0 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -178,32 +206,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C6DCDC110B680F6113731B8C /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RXSwiftScrollView/Pods-RXSwiftScrollView-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
-				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
-				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RXSwiftScrollView/Pods-RXSwiftScrollView-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -358,7 +360,7 @@
 		};
 		3667B29121EDB06A0049E692 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BDEA1211130987BFD03C2FCA /* Pods-RXSwiftScrollView.debug.xcconfig */;
+			baseConfigurationReference = BC08F8BBE95A218E6307C0D4 /* Pods-RXSwiftScrollView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -377,7 +379,7 @@
 		};
 		3667B29221EDB06A0049E692 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D6508560BC14BA3687D15B6C /* Pods-RXSwiftScrollView.release.xcconfig */;
+			baseConfigurationReference = 6AC1CF6472DDC453262C2AAE /* Pods-RXSwiftScrollView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
